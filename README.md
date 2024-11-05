@@ -11,7 +11,7 @@ Tal programa pode ser utilizado para ajuste de dados experimentais do regime de 
 
 A equação principal usada no modelo é:
 
-$$ \begin{equation} f(t) = A(1-e^{-t/t_{0}}) \tag{1} \end{equation} $$
+$$f(t) = A(1-e^{-t/t_{0}})$$
 
 Onde,
 
