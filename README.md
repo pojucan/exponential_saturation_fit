@@ -13,8 +13,14 @@ A equação principal usada no modelo é:
 
 $$f(t) = A(1-e^{-t/t_{0}})$$
 
-Onde, 
-$$f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$$
+Onde,
+
+$\displaystyle f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$
+
+
+<!--$$
+f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}
+$$-->
 
 <!--\( f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0} \)-->
 
