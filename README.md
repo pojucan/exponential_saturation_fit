@@ -15,11 +15,7 @@ $$f(t) = A(1-e^{-t/t_{0}})$$
 
 Onde,
 
- $$
- \begin{equation}
- f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0} \tag{2}
- \end{equation}
- $$ 
+ $$ f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$$ 
  
 O domínio da função $f$ é $\mathbb{R}_{\ge 0}$, ou seja, $t \in [0, +\infty)$  
 
@@ -43,11 +39,7 @@ O método de otimização _Trust Region Reflective_ tem os seguintes objetivos:
    
 Para tal, a função de custo utilizada é:
 
-$$
-\begin{equation}
-f(\mathbf{x}) = \frac{1}{2} \sum_{i=1}^{n} r_i(\mathbf{x})^2 \tag{3}
-\end{equation} 
-$$
+$$f(\mathbf{x}) = \frac{1}{2} \sum_{i=1}^{n} r_i(\mathbf{x})^2$$
 
 onde:
 
@@ -58,11 +50,7 @@ Tal método busca por uma solução $x$ dentro de uma região de confiança ($\D
 
 Para cada passo de atualização de $x$, o problema é aproximado usando uma expansão de Taylor de primeira ordem dos resíduos e de forma iterativa para $p$ (passo da atualização de $x$), visto na seguinte equação:
 
-$$
-\begin{equation}
-   \min_p \| J(x) p + r(x) \|^2 \quad \text{sujeito a} \quad \| p \| \leq \Delta \tag{4}
-\end{equation}
-$$
+$$\min_p \| J(x) p + r(x) \|^2 \quad \text{sujeito a} \quad \| p \| \leq \Delta$$
 
 Onde:
 
@@ -72,11 +60,7 @@ Onde:
    
 De forma que após resolver o problema quadrático para $p$ dentro da região de confiança, o próximo ponto é atualizado com:
 
-$$
-\begin{equation}
-   x_{novo} = x + p \tag{5}
-\end{equation}
-$$
+$$x_{novo} = x + p$$
 
 ### 4. Características do programa < **_esf.py_** >
 
