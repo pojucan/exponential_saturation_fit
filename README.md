@@ -15,7 +15,7 @@ $$f(t) = A(1-e^{-t/t_{0}})$$
 
 Onde,
 
- $$ f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$$ 
+ $$f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$$
  
 O domínio da função $f$ é $\mathbb{R}_{\ge 0}$, ou seja, $t \in [0, +\infty)$  
 
