@@ -1,6 +1,6 @@
 ## Modelo de crescimento exponencial com saturação para ajuste de curvas
 
-<div style="text-align: justify;">
+<!--<div style="text-align: justify;">-->
 
 ### 1. Introdução:
 Esse repositório aborda sobre o programa **_esf.py_** que realiza ajustes de curvas para todos os dados experimentais que possam vir a se comportar como um crescimento exponencial com saturação.
