@@ -19,7 +19,7 @@ t0_inicial = 3
 t = np.linspace(0, 15, 100)  
 
 # Leitura do arquivo .csv do ensaio de absorção (limitando à 31 linhas e utilizando ponto como decimal):
-# file_path = 'variacao_percentual_massa-15h_teste.csv'
+# file_path = 'arquivo_com_dados_reais.csv'
 file_path = 'dados_sinteticos.csv'
 data = pd.read_csv(file_path, delimiter = ',', nrows = 31)
 
