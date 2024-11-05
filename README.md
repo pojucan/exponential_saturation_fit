@@ -13,18 +13,15 @@ A equação principal usada no modelo é:
 
 $$f(t) = A(1-e^{-t/t_{0}})$$
 
-Onde,
+Onde, f: ℝ<sub>≥ 0</sub> → ℝ<sub>≥ 0</sub>.
 
-$\displaystyle f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$
-
-
+<!--![Função LaTeX](https://latex.codecogs.com/png.latex?f%3A%5Cmathbb%7BR%7D_%7B%5Cge%200%7D%20%5Cto%20%5Cmathbb%7BR%7D_%7B%5Cge%200%7D)-->
+<!--$\displaystyle f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}$-->
 <!--$$
 f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0}
 $$-->
-
 <!--\( f:\mathbb{R}_{\ge 0} \to \mathbb{R}_{\ge 0} \)-->
 
- 
 O domínio da função $f$ é $\mathbb{R}_{\ge 0}$, ou seja, $t \in [0, +\infty)$  
 
 Os parâmetros $t_{0}$ e $A$ são condições de contorno usadas de acordo com a natureza do problema abordado. $t_{0}$ trata-se de uma constante que controla a taxa de crescimento da função e $A$, o valor limite ou valor máximo assintótico que a função $f(t)$ pode atingir à medida que $t \to +\infty$
